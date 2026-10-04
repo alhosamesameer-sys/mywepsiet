@@ -6,7 +6,7 @@
 
 
 /* HALOSAT AFKAR — typography & contrast polish */
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap');
+500;600;700;800;900&display=swap');
 html,body,input,textarea,select,button{font-family:'Cairo',Tahoma,Arial,sans-serif!important}
 body{font-weight:500;letter-spacing:0}
 h1,h2,h3,h4,h5,h6,.brand b,.pg-brand b,.ah-brand b,.btn,.show-btn,.pg-btn,.pg-cta,.ah-cta,.links,.pg-links,.ah-nav nav{font-family:'Cairo',Tahoma,Arial,sans-serif!important;font-weight:800}
