@@ -1,32 +1,41 @@
 # هلوسات أفكار — HALOSAT AFKAR
 
-موقع الشركة الرسمي — Static HTML/CSS/JavaScript، بدون مكتبات خارجية.
+الموقع الرسمي لعلامة **هلوسات أفكار** التقنية.
 
-## المزايا
-- تصميم تجاري حديث ومتجاوب.
-- RTL عربي.
-- Dark Mode محفوظ محليًا.
-- هوية هلوسات أفكار وشعار SVG.
-- خدمات الشركة وطريقة العمل.
-- قسم المشاريع والتطبيقات وروابط GitHub والبناء.
-- قسم المؤسس والمهارات والمؤهلات.
-- تحميل CV.
-- نموذج تواصل بالبريد.
-- تأثيرات ظهور وحركة خفيفة.
-- جاهز للنشر على Vercel.
+## التقنية
+- HTML5 / CSS3 / JavaScript
+- RTL Arabic
+- Static site جاهز للنشر على Vercel
+- لا يحتاج إلى Node أو build step
 
-## هيكل المشروع
-index.html
-style.css
-script.js
-assets/logo.svg
-assets/cv.txt
+## الصفحات
+- index.html — الرئيسية
+- about.html — من نحن
+- services.html — الخدمات
+- projects.html — المشاريع
+- project-dftarpro.html — دراسة حالة دفتر الحسابات
+- process.html — كيف نعمل
+- contact.html — التواصل
 
-## بيانات التواصل
-عدّل CONTACT في script.js:
-const CONTACT={whatsapp:"",telegram:"",email:""};
+## التواصل
+- WhatsApp: +967 714 692 465
+- Telegram: @S7m_5
+- Instagram: @sa.me_er
+- Email: alhsamshbl@gmail.com
 
-لم تتم إضافة بيانات مخمّنة.
+## الوظائف
+نموذج التواصل يتحقق من البيانات ثم يجهز رسالة عربية باستخدام encodeURIComponent ويفتح WhatsApp مباشرة. اختيار الخدمة من صفحة الخدمات يُمرر إلى نموذج التواصل.
+
+لا يحتوي الموقع على أرقام أو تقييمات أو روابط وهمية.
+
+## SEO والأداء
+- Title وMeta Description وCanonical لكل صفحة.
+- Open Graph وTwitter Card.
+- robots.txt وsitemap.xml وWeb Manifest.
+- صور Lazy Loading حيث يلزم.
+- JavaScript عام موحد في script.js.
+- قائمة الهاتف موحدة على جميع الصفحات.
+- CSS مشترك في site.css مع الحفاظ على الهوية الحالية.
 
 ## النشر
-لا يحتاج المشروع إلى build أو Node. اربط المستودع بـ Vercel واختر نشر مشروع Static.
+اربط المستودع بـ Vercel كمشروع Static. بعد كل push إلى main سيُعاد النشر تلقائيًا إذا كان الربط مع GitHub مفعّلًا.
