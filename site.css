@@ -24,3 +24,5 @@ button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,
 
 /* Contact and social icons */
 .contact-icon,.brand-icon{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;flex:none}.contact-icon svg,.brand-icon svg{width:22px;height:22px;fill:currentColor}.contact-icon.wa,.brand-icon.wa{background:#20c76a;color:#fff}.contact-icon.tg,.brand-icon.tg{background:#229ed9;color:#fff}.contact-icon.ig,.brand-icon.ig{background:linear-gradient(135deg,#8a3ab9,#fd1d1d,#fcb045);color:#fff}.contact-icon.ig svg,.brand-icon.ig svg{fill:none;stroke:currentColor;stroke-width:1.7}.contact-icon.ig .dot,.brand-icon.ig .dot{fill:currentColor;stroke:none}.contact-icon.em,.brand-icon.em{background:#3b82f6;color:#fff}.socials a,.ah-socials a,.pg-social a{display:flex!important;align-items:center;gap:13px}.socials a small,.socials a b,.ah-socials a small,.ah-socials a b,.pg-social a small,.pg-social a b{display:block}.brand-icon{font-style:normal}
+
+.contact-heading{display:block;text-align:right;margin:0}.contact-intro{color:#6c7d8d}.case-image{min-height:300px;margin-top:18px}
